@@ -12,6 +12,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css"
 </head>
 
 <body>
@@ -23,6 +24,20 @@
             <a href="#activites">Activités</a>
         </nav>
         </header>
+        <section id="search-section">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+        <form id="search-form">
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          <input type="text" id="search-input" placeholder="Marseille, France" aria-label="Rechercher une ville">
+          <button id="search-btn" type="submit">
+            <span class="btn-text">Rechercher</span>
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </button>
+        </form>
+        </section>
+
+
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">

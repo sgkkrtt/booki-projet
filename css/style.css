@@ -52,6 +52,79 @@ header {
   color: #0065FC;
   padding-top: 28px;
 }
+#search-section {
+  margin-top: 40px;
+}
+
+#search-section h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+#search-section p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+  width: 377px;
+  height: 49px;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#search-form > i {
+  width: 50px;
+  height: 49px;
+  background-color: #F2F2F2;
+  color: black;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #F2F2F2;
+}
+
+#search-input {
+  flex: 1;
+  border: none;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  outline: none;
+}
+
+#search-btn {
+  width: 130px;
+  height: 49px;
+  background-color: #0065FC;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#search-btn i {
+  display: none;
+}
+
 
 .main-container {
     width: 100%;
