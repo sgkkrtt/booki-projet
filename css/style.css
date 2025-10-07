@@ -18,6 +18,41 @@ body {
     justify-content: center;
 }
 
+header {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+#logo-header {
+  width: 100px;
+  margin-top: 5px;
+  display: block;
+}
+
+#nav-menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+#nav-menu a {
+  padding: 30px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#nav-menu a:hover {
+  border-top: 2px solid #0065FC;
+  color: #0065FC;
+  padding-top: 28px;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
