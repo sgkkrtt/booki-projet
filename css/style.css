@@ -178,12 +178,85 @@ header {
   color: #000;
 }
 
-#info-text i {
-  color: #0065FC;
+#info-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #000;
+}
+
+#hebergements-section {
+  margin-top: 0;
+  padding: 50px;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+}
+
+#hebergements-section h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+#hebergements-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.hebergement-card {
+  background-color: white;
+  border-radius: 20px;
+  width: 250px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.hebergement-card:hover {
+  transform: scale(1.02);
+}
+
+.hebergement-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.hebergement-info {
+  padding: 10px 15px 15px 15px;
+}
+
+.hebergement-info h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.hebergement-info p {
+  margin-bottom: 8px;
   font-size: 14px;
-  border: 1px solid #F2F2F2;
-  border-radius: 50%;
-  padding: 5px 7px;
+  color: #000;
+}
+
+.stars {
+  color: #0065FC;
+}
+
+.neutral-star {
+  color: #F2F2F2;
+}
+
+#afficher-plus {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
 }
 
 
