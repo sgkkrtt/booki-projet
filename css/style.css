@@ -470,7 +470,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    
+
   body {
     justify-content: unset;
   }
@@ -488,11 +488,20 @@ footer {
     padding: 20px 0px;
     border-bottom: 1px solid #F2F2F2;
   }
+  
 
   #logo-header {
     width: 100px;
     margin: 10px auto 20px auto;
     display: block;
+  }
+
+  .hebergements {
+    background-color: white !important; /* supprime le gris */
+    width: 100vw;                       /* prend toute la largeur de l’écran */
+    margin: 0;                          /* supprime les marges latérales */
+    border-radius: 0;                   /* enlève les coins arrondis */
+    padding: 20px;                      /* optionnel pour garder un peu d’espace interne */
   }
 
   #nav-menu {
@@ -515,8 +524,16 @@ footer {
     color: #0065FC;
   }
 
-  #search-form {
-    width: 100%;
+#search-form {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;      /* taille fixe */
+    margin: 0 auto 30px;   /* centrée et espace sous la barre */
+  }
+
+  #search-input {
+    flex: 1;
+    min-width: 0;
   }
 
   #search-btn {
@@ -551,10 +568,7 @@ footer {
     background-color: var(--main-bg-color);
     padding: 20px;
     margin: 0;
-    border-radius: none;
-
-  .hebergements {
-    background-color: transparent !important;
+    border-radius: 0;
   }
 
   #hebergements-container,
