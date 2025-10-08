@@ -54,6 +54,7 @@ header {
 }
 #search-section {
   margin-top: 40px;
+  padding-left: 30px;
 }
 
 #search-section h1 {
@@ -67,7 +68,7 @@ header {
 #search-section p {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  color: #555;
+  color: black;
   margin-bottom: 25px;
 }
 
@@ -123,6 +124,66 @@ header {
 
 #search-btn i {
   display: none;
+}
+
+#filters-section {
+  margin-top: 35px;
+  padding-left: 50px;
+}
+
+#filters-section h2 {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+
+#filters-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  background: #fff;
+  border: 2px solid #F2F2F2;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.filter-btn i {
+  color: #0065FC;
+  font-size: 18px;
+}
+
+.filter-btn:hover {
+  background: #DEEBFF;
+}
+
+#info-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  color: #000;
+}
+
+#info-text i {
+  color: #0065FC;
+  font-size: 14px;
+  border: 1px solid #F2F2F2;
+  border-radius: 50%;
+  padding: 5px 7px;
 }
 
 
