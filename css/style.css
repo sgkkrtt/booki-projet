@@ -185,6 +185,7 @@ header {
   background-color: #F2F2F2;
   border-radius: 20px;
   box-sizing: border-box;
+  width: 65%;
 }
 
 .hebergements article {
@@ -314,12 +315,6 @@ a {
     padding: 30px;
     box-sizing: border-box;
 }
-
-/****** Hebergements ***********/
-.hebergements {
-    width: 65%;
-}
-
 /****** Populaires ***********/
 .populaires {
     width: 32%;
