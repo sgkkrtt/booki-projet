@@ -1,16 +1,15 @@
 # Booki
 
-Projet 2 OpenClassrooms – Développeur Web
-Intégration de la maquette Booki en HTML et CSS.
+2nd project of the Web Developer course of Openclassrooms.
 
-# Objectif
+# Goal
 
-Reproduire le site d’agence de voyage Booki à partir d’une maquette Figma en respectant le responsive design (mobile, tablette, desktop).
+Make the website given by the Figma model
 
-# Techno
+# Technogies
 
-HTML5 – CSS3 – Flexbox – Grid
+HTML5 – CSS3 – Flexbox
 
-# Lancer le projet
+# Run project
 
-Ouvrir index.html dans le navigateur.
+Open index.html on your navigator
